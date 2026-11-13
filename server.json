@@ -1,0 +1,22 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.darmousseh/habits-guard",
+  "title": "Habits prompt-injection guard",
+  "description": "Check user prompts for injection/jailbreaks; your own guard learns from your labels. Works keyless.",
+  "version": "1.0.1",
+  "websiteUrl": "https://habits.darmousseh.com/",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://habits.darmousseh.com/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Optional Bearer API key for your own trainable guard (free: get_free_key tool or https://habits.darmousseh.com/#key)",
+          "isRequired": false,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
