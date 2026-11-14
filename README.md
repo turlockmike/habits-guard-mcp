@@ -1,5 +1,7 @@
 # Habits Guard: a prompt-injection guard that learns your app's traffic (remote MCP + REST)
 
+[![Listed on mcpservers.org](https://mcpservers.org/badge.svg)](https://mcpservers.org/servers/turlockmike/habits-guard-mcp)
+
 Check user-typed prompts for prompt injection and jailbreaks before your agent acts on them. Off-the-shelf guards flag harmless prompts ("You are a pirate…", "act as my editor", long instructions) as attacks. Habits starts from a trained guard, then learns from the prompts you label, so false alarms fall on **your** traffic.
 
 - MCP (Streamable HTTP): `https://habits.darmousseh.com/mcp`, **works without a key**
