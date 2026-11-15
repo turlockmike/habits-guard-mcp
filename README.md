@@ -1,3 +1,5 @@
+> **Retired (2026-11-14).** The hosted service at habits.darmousseh.com is shut down and its endpoint no longer answers. This repository is kept read-only for reference.
+
 # Habits Guard: a prompt-injection guard that learns your app's traffic (remote MCP + REST)
 
 [![Listed on mcpservers.org](https://mcpservers.org/badge.svg)](https://mcpservers.org/servers/turlockmike/habits-guard-mcp)
